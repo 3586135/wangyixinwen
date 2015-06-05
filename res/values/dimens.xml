@@ -1,17 +1,15 @@
 <resources>
 
-    
     <!-- 通用参数 -->
     <dimen name="top_bar_height">55dp</dimen>
     <dimen name="image_horizon_padding">15dp</dimen>
-    
-    
+
     <!-- 主页 -->
     <dimen name="buttom_bar_height">60dp</dimen>
     <dimen name="main_image_width">40dp</dimen>
     <dimen name="buttom_bar_fontSize">10dp</dimen>
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
-    
+    <dimen name="head_size">28.0dip</dimen>
 
 </resources>
