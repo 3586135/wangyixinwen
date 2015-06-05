@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/buttom_bar_height"
+        android:background="@color/white"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/main_btn_news"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/main_news_selector"
+            android:gravity="center"
+            android:text="@string/main_news"
+            android:textSize="@dimen/buttom_bar_fontSize" />
+
+        <Button
+            android:id="@+id/main_btn_read"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/main_read_selector"
+            android:gravity="center"
+            android:text="@string/main_read"
+            android:textSize="@dimen/buttom_bar_fontSize" />
+
+        <Button
+            android:id="@+id/main_btn_video"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/main_video_selector"
+            android:gravity="center"
+            android:text="@string/main_video"
+            android:textSize="@dimen/buttom_bar_fontSize" />
+
+        <Button
+            android:id="@+id/main_btn_discovery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/main_discovery_selector"
+            android:gravity="center"
+            android:text="@string/main_discovery"
+            android:textSize="@dimen/buttom_bar_fontSize" />
+
+        <Button
+            android:id="@+id/main_btn_me"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:drawableTop="@drawable/main_me_selector"
+            android:gravity="center"
+            android:text="@string/main_me"
+            android:textSize="@dimen/buttom_bar_fontSize" />
+    </LinearLayout>
+
+</LinearLayout>

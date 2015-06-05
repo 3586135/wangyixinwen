@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">仿网易新闻</string>
+    <string name="hello_world">Hello world!</string>
+
+    <!-- main_activity -->
+    <string name="main_news">新闻</string>
+    <string name="main_read">阅读</string>
+    <string name="main_video">视听</string>
+    <string name="main_discovery">发现</string>
+    <string name="main_me">我</string>
+    <string name="title_activity_test_fragment">Test_fragment</string>
+    <string name="action_settings">Settings</string>
+    
+    <!-- news -->
+    <string name="news_viewpager_topic">头条</string>
+    <string name="news_viewpager_recreation">娱乐</string>
+    <string name="news_viewpager_sport"> 体育</string>
+    
+</resources>
