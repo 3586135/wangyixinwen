@@ -4,33 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="@dimen/top_bar_height"
-        android:background="@color/top_bar_background_color" >
-
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:paddingLeft="@dimen/image_horizon_padding"
-            android:src="@drawable/logo" />
-
-        <ImageButton
-            android:id="@+id/news_top_menu_star"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/toum"
-            android:src="@drawable/news_top_bar_star" />
-
-        <ImageButton
-            android:id="@+id/news_top_menu_more"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@color/toum"
-            android:src="@drawable/news_top_menu_more" />
-
-    </LinearLayout>
+    <include layout="@layout/main_head" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/news_viewpager"
