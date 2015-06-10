@@ -1,8 +1,14 @@
-package com.song.wangyixinwen;
+package com.song.news;
 
 import java.util.ArrayList;
 import java.util.List;
 
+import com.song.news.fragment.Fragment_discovery;
+import com.song.news.fragment.Fragment_me;
+import com.song.news.fragment.Fragment_news;
+import com.song.news.fragment.Fragment_read;
+import com.song.news.fragment.Fragment_video;
+import com.song.wangyixinwen.R;
 import com.song.wangyixinwen.R.layout;
 
 import android.R.string;
@@ -132,30 +138,30 @@ public class MainActivity extends Activity {
 			case R.id.main_btn_news:
 				getFragmentManager()
 						.beginTransaction()
-						.replace(R.id.container, new PlaceholderFragment_news())
+						.replace(R.id.container, new Fragment_news())
 						.commit();
 				break;
 			case R.id.main_btn_read:
 				getFragmentManager()
 						.beginTransaction()
-						.replace(R.id.container, new PlaceholderFragment_read())
+						.replace(R.id.container, new Fragment_read())
 						.commit();
 				break;
 			case R.id.main_btn_video:
 				getFragmentManager()
 						.beginTransaction()
 						.replace(R.id.container,
-								new PlaceholderFragment_video()).commit();
+								new Fragment_video()).commit();
 				break;
 			case R.id.main_btn_discovery:
 				getFragmentManager()
 						.beginTransaction()
 						.replace(R.id.container,
-								new PlaceholderFragment_discovery()).commit();
+								new Fragment_discovery()).commit();
 				break;
 			case R.id.main_btn_me:
 				getFragmentManager().beginTransaction()
-						.replace(R.id.container, new PlaceholderFragment_me())
+						.replace(R.id.container, new Fragment_me())
 						.commit();
 			default:
 				break;

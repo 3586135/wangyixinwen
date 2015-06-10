@@ -1,4 +1,7 @@
-package com.song.wangyixinwen;
+package com.song.news.fragment;
+
+import com.song.wangyixinwen.R;
+import com.song.wangyixinwen.R.layout;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -6,8 +9,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class PlaceholderFragment_me extends Fragment {
-	public PlaceholderFragment_me() {
+public class Fragment_me extends Fragment {
+	public Fragment_me() {
 	}
 
 	@Override

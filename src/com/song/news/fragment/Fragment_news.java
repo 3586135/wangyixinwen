@@ -1,9 +1,11 @@
-package com.song.wangyixinwen;
+package com.song.news.fragment;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import com.song.wangyixinwen.MainActivity.myPagerAdapter;
+import com.song.news.MainActivity.myPagerAdapter;
+import com.song.wangyixinwen.R;
+import com.song.wangyixinwen.R.layout;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -14,8 +16,8 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class PlaceholderFragment_news extends Fragment {
-	public PlaceholderFragment_news() {
+public class Fragment_news extends Fragment {
+	public Fragment_news() {
 	}
 
 	@Override

@@ -1,5 +1,8 @@
-package com.song.wangyixinwen;
+package com.song.news.fragment;
 
+
+import com.song.wangyixinwen.R;
+import com.song.wangyixinwen.R.layout;
 
 import android.app.Fragment;
 import android.os.Bundle;
@@ -8,9 +11,9 @@ import android.view.View;
 import android.view.ViewGroup;
 
 
-public class PlaceholderFragment_discovery extends Fragment {
+public class Fragment_discovery extends Fragment {
 
-	public PlaceholderFragment_discovery() {
+	public Fragment_discovery() {
 	}
 
 	@Override

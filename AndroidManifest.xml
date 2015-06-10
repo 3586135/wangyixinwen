@@ -14,12 +14,12 @@
         android:label="@string/app_name"
         android:theme="@android:style/Theme.Light.NoTitleBar">>
         <activity
-            android:name=".MainActivity"
+            android:name="com.song.news.MainActivity"
             android:label="@string/app_name" >
            
         </activity>
         <activity
-            android:name="com.song.wangyixinwen.Welcome"
+            android:name="com.song.news.Welcome"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

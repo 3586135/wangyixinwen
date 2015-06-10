@@ -1,4 +1,6 @@
-package com.song.wangyixinwen;
+package com.song.news;
+
+import com.song.wangyixinwen.R;
 
 import android.app.Fragment;
 import android.os.Bundle;
